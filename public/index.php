@@ -5,7 +5,7 @@ use Core\RegisterValidationException;
 use Core\Session;
 use Core\ValidationException;
 
-session_start();
+Session::start();
 const BASE_PATH = __DIR__. '/../';
 
 //Using Composer

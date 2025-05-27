@@ -33,7 +33,7 @@ class Authenticator
 
         Session::destroy();
 
-        header("Location: /" . 'create');
+        redirect('/create');
     }
 
 

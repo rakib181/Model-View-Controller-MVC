@@ -4,6 +4,10 @@ namespace Core;
 
 class Session
 {
+    public static function start(): void
+    {
+        session_start();
+    }
     public static function has($key)
     {
         return static::get($key);
