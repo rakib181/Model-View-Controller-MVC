@@ -1,0 +1,31 @@
+{
+    "name": "imrak/test_project",
+    "authors": [
+        {
+            "name": "rakib181",
+            "email": "imrakibulhasan181@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/collections": "^12.15"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\" : "Core/",
+            "Http\\" : "Http/"
+        }
+    },
+    "require-dev": {
+        "pestphp/pest": "^3.8"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
